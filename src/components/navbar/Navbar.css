@@ -146,7 +146,7 @@ li:hover{
     border-radius: 10px;
     background-color: #fff;
     cursor: pointer;
-    z-index: 99999999999999999999999999999999999999999999;
+     z-index: 99999999999999999999999999999999999999999999;
     }
     .hamBurgerMenu {
         display: block;
@@ -189,6 +189,8 @@ li:hover{
         transform: rotate(180deg);
         position: fixed;
         right: 40px;
+        border: 2px red solid;
+        z-index: 99999999999999999999999999999999999999999999;
     }
 
         .hamBurgerMenu.active #bars1 {
