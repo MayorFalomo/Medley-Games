@@ -1,0 +1,115 @@
+
+.newReleases{
+    background-image:url('../images/Knight.svg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    position:relative;
+    padding: 50px 0px;
+    width:100vw;
+    height:100%;
+}
+.gaming{
+    min-width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index:9;
+
+}
+.flexGame{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.newReleases ul li button{
+    padding: 10px 2
+    
+    0px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+.colorOverlay{
+    background-color: #1C1C28;
+    height:100%;
+    width:100%;
+    position: absolute;
+    top:0px;
+    opacity: 0.6;
+    z-index:1;
+}
+.newReleases h3{
+    color:#fff;
+    z-index: 15;
+    text-align: center;
+    position:relative;
+    margin: 20px 30px;
+}
+.newReleases ul {
+    display: flex;
+    justify-content:center;
+    z-index: 10;
+    position:relative;
+    margin-bottom: 80px;
+
+}
+
+.highlight.active{
+    background-color: #F68E5F;
+    border-radius: 30px;
+}
+.hightlight{
+    background-color: transparent;
+}
+
+.slice{
+    display:none;
+    z-index: 10;
+}
+
+
+.slice.active {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+      z-index: 10;   
+    position: relative; 
+    margin: 30px auto;
+
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}

@@ -1,0 +1,209 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 5px;
+    z-index: 99999999;
+    width: 95%;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    z-index: 99999999;
+}
+
+.line{
+    position:absolute;
+}
+
+ul .searchContainer{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+li:hover{
+    color: orange;
+}
+
+.searchInput input{
+    border-radius: 30px;
+    padding: 5px;
+    padding-right: 20px;
+    border: 1px white solid;
+    max-width: 160px;
+    border: none;
+    outline: none;
+}
+
+.searchBtn{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+
+.searchBtn button{
+    color: white;
+    background-color: #AA82FF;
+    border-radius:20px;
+    border: none;
+    padding: 5px 5px;
+}
+
+.navOverlay{
+    background-color: #1C1C28;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    opacity: 0.5;
+    z-index: 99;
+}
+
+.joinBtn{
+  color: white;
+  z-index: 99;
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 15px 15px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+    z-index: 10;   
+    position: relative; 
+    border-radius: 30px;
+
+}
+.navCard{
+        position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    margin: auto;
+    height:100vh;
+}
+.logo{
+    z-index: 99;  
+    min-width: 100px;  
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.hamBurgerMenu{
+    display: none;
+}
+
+@media(max-width: 1100px ){
+    .navCard{
+        width: 100%;
+    }
+        .hamBurgerMenu .bars{
+    display: flex;
+    height: 3px;
+    width: 30px;
+    margin: 3px;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 9999999999999999999999999999999999;
+    }
+    .hamBurgerMenu {
+        display: block;
+        z-index: 999999999999999999999999999999;
+    }
+    nav .links{
+        right: -250vw;
+        transition: 0.5s ease;
+        position: absolute;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        z-index: 999999999999999999999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        gap: 3rem;
+    }
+
+    .joinBtn{
+         right: -100vw;
+        transition: 0.5s ease;
+    }
+    .links.active .joinBtn{
+       right: 0;
+    }
+
+        nav .links.active {
+        position: fixed;
+        right: 0;
+        top: 0px;
+        width: 50%;
+        background-color: #1C1C28;
+        height: 100vh;
+        z-index: 999999999999999999999999999999;
+        transition: all 0.4s ease;
+        font-size: 18px;
+    }
+        .hamBurgerMenu.active{
+        transform: rotate(180deg);
+        position: fixed;
+        right: 40px;
+    }
+
+        .hamBurgerMenu.active #bars1 {
+        transition: transform 0.4s ease-in-out;
+        transform: rotate(45deg) translate(3px, 7px);
+    }
+
+    .hamBurgerMenu.active #bars2 {
+        transition: transform 0.2s ease-in-out;
+        opacity: 0;
+    }
+
+    .hamBurgerMenu.active #bars3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+        transform: rotate(-45deg) translate(-2px, 6px);
+    }
+}

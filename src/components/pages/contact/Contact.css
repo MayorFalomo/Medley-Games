@@ -1,0 +1,95 @@
+.messages{
+    display: flex;
+    align-items: start;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 50px auto;
+    width: 85%;
+}
+
+.messages form input{
+    padding: 15px 20px;
+    outline: 0;
+}
+.messageFlex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.FormSection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px;
+    padding: 10px;
+}
+.FormSection input{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.messageBtn{
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 150px;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+textarea{
+    padding: 10px 20px;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.FormSection p{
+    color: blue;
+}
+
+.house{
+   font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bgImage{
+    background-image: url('https://www.teahub.io/photos/full/28-286838_pubg-wallpaper-4k-pubg-game-wallpaper-4k.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contactText{
+ position: absolute;
+    top: 20%;
+    margin: auto;
+    color: #fff;
+    z-index: 9999;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.preOrderText h1{
+    font-size:  clamp(2.2rem, 4vw + 4rem, 3rem );
+    margin-bottom: 70px;
+    width: 90%;
+    margin: auto;
+}
+.contactText h1{
+    font-size: 40px;
+}

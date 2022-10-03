@@ -1,0 +1,133 @@
+img{
+    width: 100%;
+}
+.PartnerSection{
+    background-color: #1C1C28;
+    color: #fff;
+}
+.logos{
+    max-width: 150px;
+    height: auto;
+}
+.LogoSection{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin:auto;
+    background-color:  #1C1C28;
+    padding-top: 10px;
+    width: 95%;
+}
+
+.suppliers{
+    width: 300px;
+    height: auto;
+    position:relative;
+}
+.suppliers img{
+    width: 100%;
+}
+
+.icons{
+    height: auto;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    width: 50px;
+}
+.positioning{
+    position: relative;
+}
+
+.infoCard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px 15px;
+    background-color: #20202E;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 100px;
+    width: 350px;
+    z-index: 9;
+    position: relative;
+}
+
+.board{
+    max-width: 250px;
+}
+.supplies{
+    display:flex;
+    max-width: 100px;
+    height: auto;
+}
+
+.CardContainer{
+    width: 90%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 50px;
+       flex-wrap: wrap;
+       padding: 30px 10px;
+       z-index: 7;
+}
+
+.WhatWeDo{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#green{
+    border-top: 3px #61FFD9 solid;
+}
+#purple{
+    border-top: 3px #A27CFF solid;
+}
+#red{
+    border-top: 3px #FF636C solid;
+}
+.PartnerSection span{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    color: #F68E5F;
+    font-size: 18px;
+}
+
+.PartnerSection h3{
+    text-align: center;
+    font-size: 25px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    margin: 30px auto;
+}
+
+.PartnerSection{
+    position: relative;
+    padding: 60px 0;
+}
+
+.lighthing{
+   max-width: 300px;
+   position: absolute;
+   left: 0;
+   top: 10%;
+   z-index: 2;
+}
+.ellipse{
+    max-width: 300px;
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+.mainContainer{
+    margin-top: 150px;
+}

@@ -1,0 +1,63 @@
+.PreOrderBtn {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 30px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  margin: auto;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 30px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 40px auto;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+.preOrderText{
+    position: absolute;
+    top: 7%;
+    margin: auto;
+    color: #fff;
+    z-index: 9999;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.preOrderText h1{
+    font-size:  clamp(2.2rem, 2vw + 3rem, 3rem );
+    margin-bottom: 70px;
+    width: 90%;
+    margin: auto;
+}
+
+@media(max-width: 1125px){
+    .preOrderText{
+        top: 5%;
+    }
+}
+
+@media(max-width: 450px){
+    .preOrderText{
+        top: 4%;
+    }
+    .preOrderText h1{
+        font-size:  clamp(2.2rem, 2vw + 3rem, 1rem );
+    }
+}

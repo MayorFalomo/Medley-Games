@@ -1,0 +1,15 @@
+.comment{
+        width: 90%;
+        margin: auto;
+}
+
+.TestimonialCard{
+    text-align: center;
+}
+.comment img{
+    margin: 40px 20px;
+}
+.TestimonialCard h3{
+    color: #F68E5F;
+    margin: 20px 0;
+}

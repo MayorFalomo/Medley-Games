@@ -1,0 +1,58 @@
+.gameImage{
+    max-width: 700px;
+    min-width: 300px;
+}
+.gameImage img{
+        max-height: 500px;
+}
+
+.orderContainer{
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+    gap: 60px;
+    max-width: 500px;
+    line-height: 30px;
+    padding: 30px auto;
+}
+.gameText{
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+}
+
+.stars{
+    display: flex;
+    align-items: center;
+    color: orange;
+}
+
+.order{
+    display: flex;
+}
+
+img{
+    width: 100%;
+}
+
+.FlexOrder{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 100px auto;
+    gap: 50px 10px;
+}
+.preorderBtn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: 0;
+}

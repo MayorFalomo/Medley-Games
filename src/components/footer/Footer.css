@@ -1,0 +1,105 @@
+.footerLinks{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 100%;
+}
+.footerLinks ul{
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    cursor: pointer;
+    /* border: 2px red solid; */
+}
+.footerLinks ul p{
+    color:  #5B42F3;
+}
+.footerContainer{
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 95%;
+    margin:30px auto;
+    padding: 20px 40px;
+    /* border: 2px blue solid; */
+}
+.socials li:hover{
+    font-size: 20px;
+    transition: 0.4s ease;
+}
+
+footer{
+    border-top: 2px #292945 solid;
+    margin: 30px;
+    color: #fff;
+
+}
+.update{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+}
+.getStartedBtn{
+     align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  /* justify-content: center; */
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+      z-index: 10;   
+    position: relative; 
+    /* margin: 30px 0; */
+    border-radius: 30px;
+}
+
+.conditions{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:40px auto;
+    gap: 70px;
+    width: 90%;
+}
+
+.copyRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.socials{
+    display: flex;
+    gap: 1rem;
+    font-size: 25px;
+    cursor: pointer;
+}
+.terms{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
