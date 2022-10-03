@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../explore/Explore.css'
 
 import { Fade } from 'react-slideshow-image';
@@ -8,7 +8,6 @@ import 'react-slideshow-image/dist/styles.css'
 import { BsDashLg } from 'react-icons/bs'
 import ironMan from '../images/ironMan.svg'
 import logo from '../images/logo.svg'
-import SlantedImages from '../images/slantedImagesRe.svg'
 import {FaAngleRight} from 'react-icons/fa'
 
 
