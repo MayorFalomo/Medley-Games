@@ -5,7 +5,6 @@ import Explore from '../../explore/Explore'
 import Footer from '../../footer/Footer'
 import Navbar from '../../navbar/Navbar'
 import Slideshow from '../../Slideshow/Slideshow'
-import { BsDashLg } from 'react-icons/bs'
 
 const About = () => {
   return (
