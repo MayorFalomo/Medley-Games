@@ -26,9 +26,8 @@
 }
 
 .newReleases ul li button{
-    padding: 10px 2
-    
-    0px;
+    padding: 10px 10px;
+    margin: 5px 15px;
     border: none;
     background-color: transparent;
     color: #fff;

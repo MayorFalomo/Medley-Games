@@ -1,6 +1,6 @@
 .aboutText{
     position: absolute;
-    top: 15%;
+    top: 7%;
     margin: auto;
     color: #fff;
     z-index: 9999;
@@ -16,6 +16,7 @@
 .aboutText p{
      font-size:  clamp(2.2rem, 2vw + 3rem, 3rem );   
 }
+
 .aboutUs{
     color: #fff;
 background: rgba(255, 255, 255, 0.2);

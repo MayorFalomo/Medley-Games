@@ -148,6 +148,9 @@ li:hover{
     cursor: pointer;
      z-index: 99999999999999999999999999999999999999999999;
     }
+    .hamBurgerMenu .bars:hover{
+        background-color: #00DDEB;
+    }
     .hamBurgerMenu {
         display: block;
         z-index: 999999999999999999999999999999;
@@ -178,7 +181,7 @@ li:hover{
         position: fixed;
         right: 0;
         top: 0px;
-        width: 50%;
+        width: 70%;
         background-color: #1C1C28;
         height: 100vh;
         z-index: 999999999999999999999999999999;
@@ -188,9 +191,9 @@ li:hover{
         .hamBurgerMenu.active{
         transform: rotate(180deg);
         position: fixed;
-        right: 40px;
-        border: 2px red solid;
-        z-index: 99999999999999999999999999999999999999999999;
+        right: 70%;
+        top: 80px;
+        z-index: 99999999999999999999999999999999999999999999 !important;
     }
 
         .hamBurgerMenu.active #bars1 {

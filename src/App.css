@@ -18,6 +18,10 @@ body{
   transition: 0.5s ease;
 }
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
 li{
   list-style: none;
 }
