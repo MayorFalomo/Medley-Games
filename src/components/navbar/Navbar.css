@@ -44,7 +44,7 @@ li:hover{
 .searchBtn{
     position: absolute;
     right: 1px;
-    top: 1px;
+    top: 0px;
 }
 
 .searchBtn button{
@@ -190,8 +190,8 @@ li:hover{
         .hamBurgerMenu.active{
         transform: rotate(180deg);
         position: fixed;
-        right: 30px;
-        top: 50px;
+        right: 70%;
+        top: 80px;
         z-index: 999999999999999999999999999999999999;
     }
 
